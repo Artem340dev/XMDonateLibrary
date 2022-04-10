@@ -1,10 +1,20 @@
-# XMDonateLibrary
+### XMDonateLibrary
 Библиотека для работы с сервисом XMDonate.
 
-# Зависимости
-- org.json.json v20211205
+### Зависимости
+## Maven:
 
-# Пример работы с библиотекой
+```maven
+<dependencies>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20211205</version>
+    </dependency>
+ </dependencies>
+```
+
+### Пример работы с библиотекой
 ```java
 import org.xmdonate.xmdonatelibrary.XMDonateLibrary;
 import org.xmdonate.xmdonatelibrary.RequestActor;
