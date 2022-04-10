@@ -1,5 +1,7 @@
 package org.xmdonate.xmdonatelibrary.structure.methods;
 
+import org.json.JSONObject;
+
 public abstract class MethodExecutor {
     private String address, method;
 
@@ -16,5 +18,5 @@ public abstract class MethodExecutor {
         return method;
     }
 
-    public abstract String execute();
+    public abstract JSONObject execute();
 }

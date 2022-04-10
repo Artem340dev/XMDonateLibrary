@@ -1,7 +1,6 @@
 package org.xmdonate.xmdonatelibrary.structure;
 
 import org.xmdonate.xmdonatelibrary.RequestActor;
-import org.xmdonate.xmdonatelibrary.XMDonate;
 import org.xmdonate.xmdonatelibrary.structure.methods.AnswerExecutor;
 import org.xmdonate.xmdonatelibrary.structure.methods.BalanceExecutor;
 import org.xmdonate.xmdonatelibrary.structure.methods.DonatesExecutor;
