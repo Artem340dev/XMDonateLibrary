@@ -28,7 +28,7 @@ public class Main {
         XMDonateLibrary library = new XMDonateLibrary(actor); // Создание экземпляра главного класса для работы с методами для отправки запросов на сервер.
         
         JSONObject response = library.methods().donates().sort("top").execute(); // Создаём новый запрос на сервер с методом donates, добавляем в запрос параметр sort и отправляем его на сервер методом execute.
-        System.out.println(response);
+        System.out.println(response.toString()); // Выводим структуру JSON, которую нам вернул сервер, на экран
     }
 }
 ```
