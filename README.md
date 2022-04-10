@@ -5,8 +5,8 @@
 - org.json.json v20211205
 
 # Пример работы с библиотекой
-<<`Java 
-import org.xmdonate.xmdonatelibrary.XMDonateLibrary;
+<<`Java
+{import org.xmdonate.xmdonatelibrary.XMDonateLibrary;
 import org.xmdonate.xmdonatelibrary.RequestActor;
 
 import org.json.JSONObject;
@@ -24,4 +24,4 @@ public class MainApplication {
 		System.out.println(response.toString()); // Выводим наш JSON на экран
     }
 }
-<<`
+}<<`
