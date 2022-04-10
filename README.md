@@ -1,8 +1,8 @@
-### XMDonateLibrary
+# XMDonateLibrary
 Библиотека для работы с сервисом XMDonate.
 
-### Зависимости
-## Maven:
+# Зависимости
+### Maven:
 
 ```xml
 <dependencies>
@@ -14,7 +14,7 @@
  </dependencies>
 ```
 
-### Пример работы с библиотекой
+# Пример работы с библиотекой
 ```java
 import org.xmdonate.xmdonatelibrary.XMDonateLibrary;
 import org.xmdonate.xmdonatelibrary.RequestActor;
