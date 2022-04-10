@@ -5,4 +5,6 @@
 - org.json.json v20211205
 
 # Пример работы с библиотекой
-"`Java System.out.println(123);"`
+```java
+System.out.println(123);
+```
