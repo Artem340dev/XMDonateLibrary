@@ -4,7 +4,7 @@
 ### Зависимости
 ## Maven:
 
-```Maven
+```xml
 <dependencies>
     <dependency>
         <groupId>org.json</groupId>
